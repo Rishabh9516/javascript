@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT STRINGS</title>
+</head>
+<body>
+    <div class="clas">
+        <div id="content"></div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit quod aspernatur ipsam!</p>
+        <script>
+            var string="this's";
+            var name="harry";
+            var message="he is a good person";
+            channel="code with harry"
+            var len=name.length;
+            var temp=`${name} is a nice person and he has a channel called ${channel}`;
+            // console.log(string +name +channel)
+            console.log(temp)
+            console.log(`the length of the name is ${len}`);
+            document.getElementById('content').innerHTML='<h3> this an h3 heading </h3>'
+        </script>
+    </div>
+
+
+</body>
+</html>
