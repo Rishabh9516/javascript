@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT STRING FUNCTION</title>
+</head>
+<body>
+    <script>
+        var scr= "this is a string";
+        var position=scr.indexOf('is');
+        console.log(scr);
+        console.log(position)
+        var position=scr.lastIndexOf('is');
+        console.log(scr);
+        console.log(position)
+
+        var subscr=scr.slice(1,4,)
+        console.log(subscr)
+        var replaced=scr.replace('string','harry')
+        console.log(scr)
+        console.log(replaced)
+
+        console.log(scr.toUpperCase());
+        console.log(scr.toLowerCase());
+         var strwithwhitespaces="      this is a white         space"
+         console.log(strwithwhitespaces);
+         console.log(strwithwhitespaces.trim());
+         var char2=scr.charAt(2);
+         console.log(char2);
+        
+        
+
+    </script>
+</body>
+</html>
